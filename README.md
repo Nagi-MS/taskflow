@@ -110,10 +110,8 @@ Test with Postman/Thunder Client and the browser, then fill in the Result column
 | UI | Loading, empty, error and success states | All visible and correct | |
 | UI | Phone width and keyboard-only use | Usable | |
 
-## 8. Screenshots
-Add images to `docs/screenshots/` and link them here: register, login, dashboard (with tasks), empty state, filtered view, mobile view.
 
-## 9. Known limitations and future work
+## 8. Known limitations and future work
 - Tasks cannot be edited after creation (only toggled or deleted).
 - JWT is kept in `localStorage`: simple, but exposed to XSS; httpOnly cookies would be safer.
 - No automated test suite yet; testing is manual (section 7).
